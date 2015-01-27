@@ -1,11 +1,12 @@
 package chardet_test
 
 import (
-	"github.com/saintfish/chardet"
 	"io"
 	"os"
 	"path/filepath"
 	"testing"
+
+	"github.com/igungor/chardet"
 )
 
 func TestDetector(t *testing.T) {
